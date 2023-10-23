@@ -1,0 +1,92 @@
+body {
+  background-color: #6c757d;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #495057;
+  font-size: medium;
+  line-height: normal;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #212529;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  line-height: normal;
+}
+
+a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #212529;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.card {
+  background: #dee2e6;
+  border: 3px solid #212529;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(38, 38, 38, 0.1);
+  margin: 5px;
+}
+
+i {
+  font-size: 50px;
+}
+
+.list-horizontal {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.travel-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+
+.cat-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+
+.media-card {
+  background: #959697;
+  border: 3px solid #212529;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(38, 38, 38, 0.1);
+  margin: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
